@@ -28,5 +28,5 @@ union() {
         translate([hole_thick, leg_width/2.00, sup_height/2.00]) rotate([0, 90, 0]) cylinder(h=sup_length*3, r=hole_diam);
     }
     /* Support wall */
-    translate([-leg_width, leg_width, 0]) cube([leg_width, sup_wall_thick, sup_height]);
+    translate([-leg_width*0.5, leg_width, 0]) cube([leg_width/2, sup_wall_thick, sup_height]);
 }

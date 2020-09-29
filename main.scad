@@ -10,9 +10,9 @@ sup_height = 30.00; // This as well
 sup_wall_thick = 4.00;
 
 /* Screw data */
-hole_diam = 5.00;
-hole_thick = 3.00;
-screw_diam = 3.00;
+hole_diam = 9.00/2; // Radius...
+hole_thick = 5.00;
+screw_diam = 4.10/2; // Radius...
 
 
 //mirror([1, 0, 0])
